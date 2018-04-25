@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<ScrollPane xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <BorderPane>
+         <center>
+             <Pane fx:id="imagePane">
+                 <children>
+                      <ImageView fx:id="imageView">
+                      </ImageView>
+                      <!--<Rectangle fx:id="cropRectangle" x="100" y="100" />-->
+                 </children>
+               <BorderPane.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </BorderPane.margin>
+             </Pane>
+         </center>
+      </BorderPane>
+   </content>
+   <!--<padding>-->
+   <!--   <Insets topRightBottomLeft="20" />-->
+   <!--</padding>-->
+</ScrollPane>
